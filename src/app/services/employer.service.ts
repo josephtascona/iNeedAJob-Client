@@ -4,7 +4,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 
 // needed to fetch the api domain
-import { environment } from '../environments/environment';
+// we modified angular.json to replace this w/environment.prod.ts in production build
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
